@@ -17,6 +17,7 @@ div.nomprenom{
 
 }
 div.Titre{
+    position: absolute;
     text-align: center;
     background-color: rgb(37, 130, 173);
     padding: 20px;
@@ -24,7 +25,7 @@ div.Titre{
     font-family: 'Courier New', Courier, monospace;
     width: 100%;
     border: solid 2px white;
-    z-index: auto;
+    z-index: 300;
 }
 div.Formation {
     background-color: rgb(37, 130, 173);
@@ -50,16 +51,16 @@ div.infoc{
     padding: 20px;
 }
 div.rounded{
-    display: flex;
     position: relative;
+    display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
     z-index: 3;
+    padding-bottom: 10px;
     
 
 }
 div>img{
-    display: flex;
     position: relative;
     border-radius: 50%;
     align-items: center;
@@ -70,7 +71,6 @@ div>img{
   0 83px 32.3px -21px rgba(0, 0, 0, 0.294),
   0 100.1px 90.7px -21px rgba(0, 0, 0, 0.373),
   0 157px 362px -21px rgba(0, 0, 0, 0.56);
-  z-index: 2;
 
 
 }
