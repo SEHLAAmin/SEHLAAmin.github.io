@@ -1,0 +1,63 @@
+
+div.nomprenom{
+    border: rgb(28, 141, 216) solid 1px;
+    text-align: center;
+    color: white;
+    background-color: rgb(15, 141, 214);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    width: 100%;
+    padding: 30px;
+    box-shadow: 10px 8px 5px white;
+}
+div.Titre{
+    text-align: center;
+    background-color: rgb(37, 130, 173);
+    padding: 20px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    border: solid 2px white;
+}
+div.Formation {
+    background-color: rgb(37, 130, 173);
+    color: white;
+    list-style: none;
+    border: solid 2px white;
+    padding: 20px;
+}
+div.Exp{
+    background-color: rgb(37, 130, 173);
+    color: white;
+    list-style: none;
+    border: solid 2px white;
+    padding: 20px;
+}
+div.infoc{
+    background-color: rgb(37, 130, 173);
+    color: white;
+    list-style: none;
+    border: solid 2px white;
+}
+div.infoc{
+    padding: 20px;
+}
+div.rounded{
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+
+}
+div>img{
+    border-radius: 50%;
+    align-items: center;
+    margin-left: 40%;
+    box-shadow: 10px 8px 5px white;
+}
+body {
+    background-image: url(./OPH22O0.jpg);
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
